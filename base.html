@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houchi</title>
+    <link rel="stylesheet" href="stile.css">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <div id="header-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#"> HOOCHi</a>
+                <nav>
+                    <button id="nav-toggle" class="slip-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">home</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>blaaaaa</h1>
+                <p>bliiibli blii</p>
+            </div>
+
+        </section>
+    </div>
+    <section id="how-works">
+        <div class="container">
+            <h2>process</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>find HOUCH</h4>
+                    <p>bla bla blaaa</p>
+                </div>
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Bye HOUCH</h4>
+                    <p>bla bla blaaa</p>
+                </div>
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Invest HOUCH</h4>
+                    <p>bla bla blaaa</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider">
+                <div>
+                    <img src="https://i.pinimg.com/originals/ed/46/ed/ed46edbe4e29a7fb9496e815cecc93f3.jpg" alt="house">
+                    <div class="property-details">
+                        <p class="price">20000.DT</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="space">600.METRE</span>
+                        <address>
+                            03 rue al Jazira tunis
+                        </address>
+                    </div>
+                </div>
+                <div>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgWFRYZGRgZHBgYHBocGBgYHBoZGhgaGRoYGBkcJC4lHB4rHxkYJjgmLS80NTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs3NDQ0NDQ0NDQ0NDQ0Pj00NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKcBLgMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EAEcQAAIBAgQCBgUJBQcEAgMAAAECEQADBBIhMQVBBiJRYXGREzKBobEUQlJykrLB0fAjM2KC4RUkNFOi4vFDY3PSBxYlwsP/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAqEQACAgEEAQMEAQUAAAAAAAAAAQIRIQMSMVFBIjJxBBNhgcEUQpGhsf/aAAwDAQACEQMRAD8A31ciu0q6bOOhVyK7So2ChU2nUqNmoVNinUq1gobSinUq1mobSiuxSitYKG0qfTaNmo5SrtKtZqOVyuxSrWCjlKquK4lat+u2sAwFZiQdoCg1meJdMriyLGDuP/E5VB4hRmJ9sUHJIZQbNhSrzrB9NscD+2wQdSfmZkIHtLTWnwHSm08B0u2mPJ7ZI+0mYD2xQUkwuEkHq5UHy61/mJ9tfzpfLLX+Yn21/OmsSiV2gE9lQ4G+zoGZChPIxPjoTpTvlVv6afbX865ZxCZV667D5w7PGheQ1gmpUz0yfSX7QrvpF+kPMUbBR2K5SzjtHnXZrWajkVyK6aVawDYrhp1cNaw0NIpppxrhrWahhphFSEUwitYKCVKlNKpWXoVKh3FOJG0VATNmDHciAsa6A6a70ITpepbL6MjvLADzihuQdjqzUUqBDpB/2/8AX/trv/2D/t/6/wDbRsG1hylQQcf/AO3/AK/6U8cdH0D9oflRs21hilQkccX6B8xXRxlfoN5ihuNsYVpVGH76VRf1C6Lr6WXaJK4aYaUUr+p/A6+k7Y6R21Vx2KZFlLT3SfmoUEd5LsoA86sKK7FK/qZeEOvpI+WZnGYjir6WrOHsjte56Ro/lGUH2GoeEdF8U9zPxDEG6ieraViLbtvLoFVSo7MuvPTQ64CrC7Cpy15NUVj9PCLujHdIh/eG+qn3aGRRTpF+/bwX7ooatden7V8HJqL1v5ImMb1kOMdK2VytjLlGhYqGzHtHd+vDZ4rC2riMtzNqIAVssk/SYRC89+XPasdd4fgVJVkcEGCM5/8Aag5W6QdtK2DR0uxX0k+wtd/+4Yn+D7A/Or3yLAfQf7f+6l8hwP0H+1/urZ7BjopDpjiey39g/nTh0yxH0bX2G/8AarnyDA/Qf7X+6l/Z+B+g/wBr+tbPZsdHMB0wYtF5VCn5yAiPEEmR4VqbN9XUMpDA6gjUVmBw3A/Qufb/AK0R4dbs2wRZDgE6hmJHsEnWmi/DJyrlBuau8F/fp/N9xqFpcmp7OKa2wdYldp1GojX2GqUI3aN4a5FZez0rb59sHvViPcZ+NEcP0jsNAOZSdNVn7s0ciUF6aaca5Qs1DTTSKeaaa1moaRTCKkNMNazUXc47aq8Q4illGdszAfNRGdieQCr/AMdtUwk86ZiMMzKVBIJ2PYeRqbWMF0s5KdvFG9aN02iDcIkM+VkVR1UIjSJkjtmsxjcMcxIWP5v6Vea9iUzq6dbqmA0TpGcHbkRHdQixdv3HZSjKFaGLMIBiY7/ZXJCElNt+cnZKcHFJeA1hA2QZt/EHTlU1NRYAFOG9dcbSycsqbtDgKcKav51IBWMkIU9aaBTlpWMjSrUgNVr+KRAC7ogOxdlWfCTrVZuPYVd8Ta9jqfga4jvwE66aCP0qwQ/66nwDt8BUD9NMEP8AqMfC2/4gUKZrXZohXRWTfp7hRst0/wAij4tUDf8AyFZ+bZuE95Qfia1MG6PZtlFTjYVmOj3SdcTmlMkHKOvmk850Eb1phtQlGUeRoyjJWjHdIf8AEP4J9wUMon0h/fv/ACfcFDa79P2r4PO1Pe/kY4msf0hwqhyYE/1tD4MfOtlWW6RjrH2/esVbTirI6kmDLGCQrJHb26nkNNvHamfI1zkZTAAMTrOnOq126q7sRPIDYedPOmubSJmN+zSa6rhbXRz1LvknxOBUDQfOAnWCI5A61K3Dk7Dz01nTntEe2apK0rIYnfQgiD5ntpC5qVDmRPJoJHKc1C4Un2bbPOeCTh2FVnWRz/FPzNa+3hgNhWZ4WP2i+P4pWwUVLVilIrCTaGKlK6OqaliosR6p/XOkCVa7bPWXxHxps0laCDTAPTTTTXC1cmo2NR2mmkTSJrWajhpprpNMJrWahGyKZ8n76acT3V35V3Gl9Ra4gPiqRdP1E+L1BiFjEX4Hzx92rHE3zXCf4FHvb86gxH+Iv/X/AArP3L4Zl7X8iFKnAVG2wPePfAotmSJE/XnUoqG3sPZ+f4mphQCdFNYnlTqcq0rYyRmOk/B73ps126XLQVbKEXKTqiLJgqRqOwqZJahuA4C112tpcTMqhiGzCAY+iD2+2vSeL4XMjuxkKpKLA6rZSpYHwLD20K6F2LZvYkZmzkWARlXLBD5cpmSfWnTsrztbVcdOUlyq/wCnaoRtKXBi8V0cuo4RnUggtmUNGmUfOgzJ7OzXs7guC27ilvTkQzL+7Y6qYMa16BxkK1uVBGqjrRPM8uW1C+j+EsHDs2V9HulgWXVhcymIXQSdO6pf1EnoKbdNuiy0Yfdpp0ZR+CBFd3ZiqgsICgsoXNIEaaEaHnNOwtjClVYi/JAO6D3g1ruPogs+rKi05y5t1C+rmHdpNUeGLhzhhcGGUR6IAG5dYdZHbU5uWUedUlqy2KV030CGlDe01aL3RHhqqCpkdbYk9aUVpGu2tbq2sKB2CKpYC0uRDlAIGncOwE6xRADSnc5TyxVCMMRMZ0h/fv4J9wUMol0h/wAQ/gn3BQyvR0/avg8zV97+RCsz0l9Y+371j8q04rM9JSc3LmP9Vj86tp8kZ8GS4i3WHh+vhVq+/Uk7lR74qpxA9YeFT4tv2c9y/EUf7p/AaxAkwzSh8T8BTEbrn+bl3Gm4BpRvH8BStnr+1vgaV+2HyGsy+AtwsftB9b8UrYLWP4Yf2g+t+KVsVq2ryR0+GKhvSEH5NcjsH3lolVHjf7h9thE7TmFRfBWPJgLWKdR1WdR3Ma0vCcdccQ6yB88EeTDt0/pQrDYXOADHWkSuo3I0mtHYtBVygafHtJ76XTTDqNG/TGZgCrSCJBEEEdoI3rvytu2hthVRQqqFUbBQAB4AU4vVdqJ7mEBjTzil8tPYKHekrj3QNTtQ2I25hL5Z3Uvlg7KGm5TfSVtiNuZcF00jdqOB20svfWwNkp4lpdvBfxruI/xF/wCv+Apl71m8F+Bp1/8Af3//ACH4CoS936ZeHt/ZIq1BettqACdCdjy1/XsqcP8Aj8Klv23YKUzag7d5Kn8KlOe0rCG4rKjclJnbTtO57oiraYV/omosPYdknK3WmJbYAXOz2faFXVwbnN1dOsBLDX94J/1e+l+6/wAD/aX5IhhH+j7xT1w7DeB7R39/cfI1M+Acz1Brm5jnn/8AYedPOAfXqrz/AP6f+w86V6jfQy0kuyxjnV0dAwlgQJMamR8QfI0J6NYT0F+9dd0KuLOUK2Y9VWkkaQDmEUVfCufo7zsfpXD29j1DhuGuhLrlDFVUnU6IJXSY9Yt59wrnnHfFxLJ5sZxhFyHLMKwMEawGKn3z5GgXCECWLiaksbjBh6vWuq+s7QNPE1ouKW3yMW15CB2ux/8A3oLYd0thMo0nWDqGZCZ05ZSe8nkKEPpl9lRS4YstZqdt+CPijB7OQaN6JkltBLJoZ7NQagwuEYYU2yQMps9YTlBVLgaTG5nyB7KvesIccgCIMRlCx7hVq24y5cq5SVLApIJAIJIJ1nMfOqPQTilXAI673N2GMHxBAig5tAPm6bxPhOlX7WNRoAzSZGqkajcUCs4ogAabKPV7HLdvfVq1iBmUk/OY7QNTNZwpDKdsDdIf8Q/gn3BQ2ifHULXXcapC9bloon8aEXroRSx2Gugmu7T9q+Dz9Vet/JLWZ6Tb+1vjh60L3grKp0zBjJIAERvPbNZXj+KDXHQFSBqCDMz6Enu0yH31bTaslNOjP4rDljII2jWalv25XLpsB3aR+VcfDO0uA2X+bwG1WsNwjEXIRFbNqdTlECd2PiKr6bbrkXOFfBVw1nKpEjUzp4CuJaIfNIjrds6g91HLPRDGayq7f5imqGO4FiLJUPrOvVbNpPPTupVLTkkl4/IzhNW35JeGfvF+t+KVslrH8OtsLiypGo5HtX8jWwWm1OSMDtUeMj9i/wDJ99avVW4ima2w+qfJgfwqLKrkyfCV6qeLffNHqH4XCZAq6mCdYjdifxohWiaTtmsFsxtTShrLpisQNrr+YPxqVeJ4gfPnxQbx3U25gwaF9N9J0oW3EAjOjk9SDMRoYjT271RvcVvMpVkRge1SPaJ50D4rjbihS7ZyVZJMTlEESQBMSaSU2lY8Yxbo1t/iSLG5JMAASd4nwmragkTBHca88wXHWR0dlBCACBuRBA+JNFX6cwSPRhtdCDAjy1oR1rywy0vCN2knYT4VSx+PtorB3ymD4qY3PZ7am6M8VtXi4t5uoEJDAiA0xv4Gsb0zuD01xZMZhPnb/CdKR6vqa6RT7fpT7ZpcJdz27dwsGZ0VmylSoaIZVyzzB5mrF/8Af4j/AMh+ArI9F72WyACdXaeYHUkxGg1jxPZWi4jfK4m6ATreM77Qd+7T4dtT3W/0U20iziUuZZtIXcahQVWe2SxAA9/dQcXuMjZEVV6yx6AxseZJIlfdVm1imYCQSCtuVIMSXhtPDl2VHiLjIksiy3pxIUb+qoXXbIDHbsJqE5O+C0IquSHDni7AejdQoHV1sDqkBhMgn6Op1p4scdj9+gH1rH4LQK3x+4qhcts6hiSkkkrkbMZ1UroRHlR29xb9kjwmZrV0t1EgOxVQAOXVGXtg1kpdILce2J8PxqCWxaKBJP7RBoBJ2Ts1qIYLizAN8vtwQCD6eBBGYbJ2a+FBMR0jvuSsqsnMcqKu6hGGnIjcUVTG3Fw6H03r2XLKUtws5QqqYzaqInfTTsrerpAco/kmHDOKNH/5C3rlj+8vrm1WITnypLwfHkSeJrsD1bt1t2yjYDc6UFTpHiSqgPAASIRBGScuuXf40f4Lx286gucxR2cNCrKeiYRCwNGIO3LumllKS6Giot+SK70bxrgr8vL7zLXYBUx27yfdQrG9GsVaKhsUdRIhrse3Wtv0Xe66F7rliWcAGOrDsI058/bVDpc5Fy0ROzbdx/ImqacndMTUiqtGTXhGJ5Y0/bvfnU6cIxnLHHt/eXaq3uK3A7BXgB9oU7aH8fOu2uK3yQock5gQMq8+e3fTOSJxi2EE4Rj9Ix+//cu/lWz4HadLCLdf0jjNL5i09do1bXQQPZWY4firxU5pzekQ7KOqSgkAR5949us4ZcL21Y7nN94ge6KmpbmVUaFxRos3D2I3wrJ3LOeyWZn0Un13AMdoQ+rptEn46njJ/YXPqN8Ky2FebaHKGTLqSMyiNxEyTvsD2aRr06fBz63KJcHh1XLChfWBJhtTpGfMWmdNW8zrUuMXKc8iFyrBB3ynUAHQaknvntiuKoA6oAG0DUeEaE/VOsbbVxXJLA8iOcmcoiZ3MbHaJblRaymIpYaBF+4pKApqMgzdZDBaJAUgjYQYnbvo5wC8TeCnN6jHVmM+oYIbmO7TSq9zJzCsRtIJg7SFid/nGJ8Kt8FuD0qKdGyvC6bdTUQSInsPMbTSy4eQw9yNMBQHj2IyXBAmUHb9JqPgVm+kjxdTwSdts7TvU9N5L6vtKRxjNICdonXz1FTWgaplmi5EnrKV9XbJb79eZ9vhUrMcz7xkWNt5ud+vLyPfHUpUcbVlyaIYa0jIJVTMzIB5mgiOcyTMZGn1d5t9/j50a4R+6SdN9Paanqyxgpoxzkz3EWVLjjYKdhsBE1W9INO+T5R+Yqv0hxiriLwYkTA9WR6s9v8AFVfD3lcqVYGFYRGu6cp/UedYywiU41JhAXR284+P5UvSjXu38gfxoS2NReqX1VyT1TG7befv8mtjbZD9eM38LfRUa+Xuo7gbQwLgmJ/W1DeM3Fa3B9aRlJG3bB8KfZxCuxKuDAjaDuddeX67qrYlEyJnMoCkkDrZPnZNd4mlm7ixoR9SM8++3P3AUwWjzonxs2fSObHqTCRMZcszrqTJj2bVPhjhvRrnlmIBO4IPWkSNxt/WuZHQ0av/AONHhsR3i38bmlBOlzk37kz653Gg1XYjflVn/wCP8elt7ueQHCAELIBGffs0JPsPdQPj7Mb1wlzcGcgOI63Wnlpt3e6gsMeTuKD3RdAbIgGc7g7RISR74/pWh4lbzYm5v++IO20Gd/ZpzrK9EbDlQwchM7QAdCcusiNOWv6Osxv7+7/5mo1n9Ct2ivhbDQNTOW2dxv6TXXty6T7Nqd0lTJaXUyXvheyet6P8YHlzqbDB4HblX3PNZrGcZuK7W7rEFc+sh9Tn2AHa25PLupGsjqWAKqiYk/M3jmezlUjWDuP458A23lQ5m64InQARvMDWfLejNuYjuf3kUaFso3MMc5M6gA+Zg+4RUOZgikmQQdBtqd/hV3EvDsf4E8NGYx41Sc9VdNBt4H8prGJbFxiIXY5Q0jXqk7frnWi4JaBuplYf9QnUzlyHTu1NZqy/rEGIAPw0+NaLguJCuO3K5Y7BQwXU8u0VKauqKQkld9G56NWsuGQ/xXhueV5405UK6WpN2zr2/eor0auTh1H8d0+d1zQ3pVPpbUdh+8KeCp/5DN3DH4PMGA9Ow7bjffO9XsKpGJAH6GdaH29cT3m4fvmjOFScXHce36a9lGX8CR/kP8HutcF4/RuWgJ7My5tfYY5bVruFOGsow2YZh4Ek/jWS6P2si4hdP3iEeEhtPOtJ0XP9zw//AI0+FTjFJ4KuV8k3G/8AD3fqN8KyPD7DfJ7ZMEBAeYYTBI3g6jy0rW8eP93u/Uas3wtpwtvvRPwrq0uDl1uUXnQMJG+06+RG+/l3Gq2HQlmHYe4xoJ98b6cxoIMmKfIc0kDfQM0kfwrqTHnHhUCXYZ3mBcKEbmMqjQxrqOfKqvkilgqcXxCJKs+XMXHrQT1tSSd/E1Y4U0YxFzqSA/UWeqrJmnUyZIFZzpZYZ2RlV2n0moVjoSMoPZz3111ozwu239qK2UwUIBggaW9YPM1KXtKxWUegVlulIJvIA0HKmkgSA5zeOhrU1lOkwPym0QNk9mrgVKPJfU9pTe20XYJ9YRqPoJPh7Kn9Ec7iTGRY23l+7Tlr40nY5X0/WUVMpOdtPmrz73rrSwcXkgtW2m3JMZGnbf8AZ7aajffuozwn92s76/eNCrRPU0+YeY/gotw3RNdNW+8alqcFtLk866X2ycXdj+H7i0zhuAgqzSCQSB2jq6sPbt+hf6SrOKuac11/kXlUuU5l+q3xWngr/wBE9V06MzjLRzvHafjUJtt7qKY/R4yk9UsYHLMRT7ljQeB5fwilkrYydIqcNwRd9SQBzGhG0R76JYyyptqGJ0jUASeqd+2p8GhAHgeXfVXiWb0Y5QQCCPEa60zxGxU7kBLSgkqeengY/QqWwhBg7jMD5gj4muGecEj5w8PnDnSuOfA6e0ciDz/pXK22zorAc4Xwu6mdNQ7BISYzwTOp6pXXmD4UL4sH9IWIZSSxyENnQLuWkAHtzbb7UR6T4lmKgiCQdNIK8jmHOZmdqzSXIIP0SCAdRoZjw/Ono14Pa8JiFuWUZQpzIrGIOpGsEATrIqoz/tL87+lc8u6sb0d4vbz5ndw5PVBY5JOkKiiAI+kdgK0nE8alu7iCzR+1f2+FaCqQdR3GyTi3EGw+S4YZCQGGUKQd5zT2TpHKst0pxVvEXrTIAi5QDc6zAkjPkIiJEkcx1hJja8vSVNr9sPbc5SVbNHiDGsRWOxDqGZUYlMxy6EdWTB15wT5mg1kCeDc9HsRYCBUtq8eu3o1ZzM6EqAqDWNTqJotirNuQVRQDrELp2jSsnwFgoDMsFjmViUA2yyiD3mjQxE85poQp2aepcao7jLaL1jbRlO8osjwYwPYxG+jDas7jHsw1tAFdSXWRlO0vZYkdaRqjHXTKRqCdK2JYDqiT9XMPaAQazXEXBJJtZcoKnK2y/wAErA0nqN4rB1oziicGAGc5dNj8QTHurZ9BeHtdZmdFy8mIlm1E5f4VygTsDMSQAMU0DQyQCdiAecdoHLt/Gt30XZ77RbGZE3AzJZQQAFy73WAjVzG8K29SfBWKTZv7FlEUKgAXu21Mk+ZqPF4ZHgsqsRsSNvCrCqQACZMDWo7hpE2dLiuAbb4Jh5zegthhsQizrvrHefOn/wBl2A2YWkDQRmyiYJkifEmrgauMaIjSILOAtoDlRVneABJ1OvmfOp7FpUUIihVUQFAgAdgFIHSnE1jUUONrmsXAeakeelZLB8QsLbSyLilxlTLrOYMFjxrW8VP7J/D8RWEHAUBGIzMWDC5l6sT6SYGkxXRptpYObWStBbjNzRf5/Z1dT5ae2oLNzVjm9Zky69iidPHWOfiIruMxydQvABzA6zy01Hh76zuH4qFvHNoukQ0+qIUkzroKLkrJqLo1NqyPRJoRomkzGq6eyp8JAxOHAnUXSfDJWNTi75/XJQRpGkSD8edF+iXEGuYtAxkKLpHtT/mllJNUkNGL3I9HmqeKwaOZZZIgbkbGRt31bmoXepo6ZcFUYNB833nX31z0FudvefzqZ3MbT7/+Kqueyqxt+TnlS8DbtlQdBXA0CkzU009dk7zga+UmSB5A0xyp2VQPAVxqiNBoZS7OnJ9FfIVxUT6K+QrhyjtpK4nalaHTQ/InJR5Cq+OwqMhU2w3dovkRtVg3aabhpJJ1QyaMRxXhUNKK4jdWUSO8MujD30Duo2gHZP4frwr0y8inXKCeXIz9Yaisjx3BgEE6kesQx0LSQsnUxDH2ip5i88D0pLA3GLiEQq6i6jjSACUIM5gYJB/Os4RO3v086v2OJXVUoGGXXcBiJ5CZjX21Xwh64kDWRrHMHlVeCfJa4c1tGDuVeCpAzEBddSREty0Ao7xPFpicTcdHOQlmBiCZckGDtoQZ3rOtYXsHlTLLEEns8txvQTV2B3VFviash06w3DwCR3Fh+NDU1mew1aa4CIIiYJAJAMDQkbf81XYRr2ia1hovcKzl8qmJ0ZtJA7jNaTD5U0UAfrmedY1LrDYkfr9a0f4figQBMkCTufearEnJGgVQ+6K3j/waGcQRBqAsAwXM5Q3YpABdtNQu0b0Qw7SIqLE4JXAa4JAICIJChB1myjT5qtrzMcooTQImf4dhVvYjIBmzSQpYoXgHqzrExJ12nUV6l0cZRayWrQXISjKxCMjjdWChtec85nWZrCYvh/ycWLqaFLpLEQCQzAjbkAkfzd9b/C4Xr+lHVYjK3POo2zd66wewkVCaxk6dJ5wFMzcwB4Et8QKiepmqBjUkzoaGzXGrhNQPiQDGtPFN8CSaXJYFOqsuKSN64uKXtptsuhN8eyv0gP8Adrv1GrI8PxVj5PbDYkhstvMptsYMrIzc41rT8dxCnDXR/A3wryq16o05L+FPH0rJLUkm8Go4rbwrkEYiTrMIRqNiZ5mSJ/4NRMBhCz/tlAzKElN1ygsT2DNPu7aDHfaksa6fqK26JOzQpwzBZEb5QoYhJBTUTlzA67iT5Va6P27C49FskMAjkuBlBJXYDz1rKA6DTso70MI+WJ9S592s3GsDxllHpdRt+tK60/r/AJqJie2PYfzpUWY1wO33xUFwGpmOmrD3/nUJc8h8fhVIkJpERprU92J3phNUIldjUZFSPTawyQxiKSxUgUdtL0feKDYyTG6dldEdldyHupEGptlEiDE3lRWdtlE0JucNLWQG9Zn9I08iQRHsED2Vb4muZkt8mbM31V1M+Og9tXTS8sosI8uZlPLXtpW3OdT/ABD4ipbmDcalYEb9scx21ANCNNiD76OGI0EboqpbWTA/WtXb25qnYPW91LHgR8ncVZUdx37RVdmLewaeFGFQGVOx0M1yxgJcqgJIUR3zPb5U1oZJvgEW7TN4UZwAAEDl8agfB3cxRtI305H9GiWGsQB+VPF+RJLwEsLRRFL5QToI+IMe4ezTnVHCII3M8hH41peFWCB1kG8gmPzrT1FFWzaem5SpFPH8Na5ZuJBMoSOWo6w33299HOD4gPZtuNmRT7Ygj2EGp0egfRJ8ov2P8q84UdiMSR7w1cspueTtjpqDSXk0D3VGhMVEHBmDQzFNB5nWqguE9tUjpKuSMtZp1QbZx21WbDgnc+6hzMe+qt3iiI2UuA3ZNOo7fIktVS5QYu4U8jNV2UjeqtnjFv8AzFPdmHZ4127xWy56rroO0U8ZNOmTlFNWiLjH7i59RvhXnS3TlHs9vbXoPEOIWnw11FuIWKMIzDnXmyqdt48aWXqBtostf7jz/CuDEb/rlXEwrt6qEx2Cpv7Iu76f6p8stKoGpIhF/QadlH+hVycYnclz7tB7fD3B1WY1OoUATzLitB0evomIR3CWwquJzq05hpJVddue099BpIMU9yZ6EW0rjNpQvFcfwyAFrimeS9Y+Q2oHjOmqbJbY/WIUe6anZ0tpcmuUg60xhyHPc1lcF00tNo6lPbmHwoonH8PBOcfruprayC4ywgliUAURVNjVPFdIrRTqSx8CB7xQ1+OGNEBPifLbeqQmqyS1IZwF7jVDnoQeOL85G17CCPbtTjxlBHVbXvUaedU3onsfQTmuTQr+3h9AfbFJ+Pjkig97iPdNbfHs2yXQVJNOFyN6AP0gbUZUg6fOPmf1vVZuLu7BSREqxIBHq8/EmKnLUj4KRhLyF8HcL33fkihB4kyfgPOiUGsRh8dcXNkaAz5uW/q9nYKsWuL3xPXJ8qS6K8ssJxgBQvo1MFn0MbHOQAQY3Aqlj7+HcEqjK4IbZYOoJB11512lSRih5SbRYwmMwrOqtaYszgdg1YDkdtao8ew62r7qiwgY7HUAO2gnujypUqaKp4ElwMs43Lrk15HNJHfMb1awnFsjOwWScsEsZA8td65SoyVoEHXBaxXHSy5fRrm0glifbEe6fOosNxAaZk23gxPgKVKhHCwNL1SyFF6Q2AR+yYCdYg7cgCRRY9MbA0COfYB+PhSpUkx4Nq6KWO6WnXIhUZWBlhMsCqkADdWjnqJ7qE8P6RvbxF66qrN0yQRIEEkbRJ1NKlWilTFlJ7kEG6YXjErbMSfVKn3Gor/Se8YyointgmPfXaVAZ8FO70hvGdVB7Quu3adqFXLnOIMe0mSZJ7dYpUqPJzyKpfmJFOtzsPPnSpU4hKikkAakmBtz8aMYbg/Vl0cnnDIB8ZNKlRiZ8l0YFUU5LbAxIBcR+MeVCMRxFjOVVUc9ASfdSpUZY4MigZJ1NOS2aVKpyGFebTlHhr4Cq5k0qVaPBnyWbOHjsmpFQD84pUqDeTpglRIj9n5VIkHTSe3WlSoMZEVxDtMmoipmDy8KVKigSHraY6CP1rTHtQYJ1/H2UqVBN2CSRwQI76luwlsn5ze4UqVF8oEeGVrF4FYHgfGnqe8+3WlSoy5Am6P/2Q==" alt="house">
+                    <div class="property-details">
+                        <p class="price">20000.DT</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="space">600.METRE</span>
+                        <address>
+                            03 rue al Jazira tunis
+                        </address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://previews.123rf.com/images/aksenovko/aksenovko1603/aksenovko160300006/53549960-traditional-white-and-blue-interior-of-house-in-sidi-bou-said-tunisia-.jpg" alt="house">
+                    <div class="property-details">
+                        <p class="price">20000.DT</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="space">600.METRE</span>
+                        <address>
+                            03 rue al Jazira tunis
+                        </address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://d1qfj231ug7wdu.cloudfront.net/pictures/estate/3066/3065749/16068679445cf51bd67f37d7.88034171_756.jpg" alt="house">
+                    <div class="property-details">
+                        <p class="price">20000.DT</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="space">600.METRE</span>
+                        <address>
+                            03 rue al Jazira tunis
+                        </address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/originals/60/24/93/602493a7954cf002874491c1c9b0094b.jpg" alt="house">
+                    <div class="property-details">
+                        <p class="price">20000.DT</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="space">600.METRE</span>
+                        <address>
+                            03 rue al Jazira tunis
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <button class="rounded">View All HOUCH</button>
+
+        </div>
+    </section>
+</body>
+</html>
